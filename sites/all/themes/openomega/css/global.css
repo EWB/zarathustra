@@ -1613,7 +1613,7 @@ html {
     background-size: cover;
 }
 .navigation li.active-trail a, .navigation li a.active, .navigation li a:hover, .navigation li a:focus, .navigation ul li:hover a {
-    background: -moz-linear-gradient(center top , #000000 0%, #000000 100%) repeat scroll 0 0 transparent;
+    background: #000000;
     border-left: 1px solid #FFFFFF;
     border-right: 1px solid #FFFFFF;
     color: #FFFFFF;
@@ -1628,9 +1628,13 @@ html {
     text-decoration: none;
 }
 .navigation ul {
-    background: -moz-linear-gradient(center top , #000000 0%, #000000 100%) repeat scroll 0 0 transparent;
+    background: #000000;
+    background-color: #000000;
     display: block;
     margin: 0;
     position: relative;
 }
+.navigation ul li {  
+  background-color: #000000;
+  }
 
